@@ -1,2 +1,2 @@
 # Portfolio
-A bare minimum portfolio website
+A portfolio website
