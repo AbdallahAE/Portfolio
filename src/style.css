@@ -125,8 +125,8 @@ p1 {
 }
 
 .headshot {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 800px;
     border-radius: 50%;
 }
 
@@ -185,7 +185,7 @@ a {
 .job-bubbles {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .job-bubble {
     width: 235px;
