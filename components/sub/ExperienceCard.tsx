@@ -16,7 +16,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ logo, altText, title, p
       <a href={link} target="_blank" rel="noopener noreferrer">
         <div className='flex-col flex items-center'>
           <div className="mb-4">
-            <Image src={logo} alt={altText} width={220} height={220} className="rounded-lg" />
+            <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${logo}`} alt={altText} width={220} height={220} className="rounded-lg" />
           </div>
           <div className="p-4 flex-col flex items-center text-center font-normal ">
             <h3 className="text-2xl font-semibold text-white">{title}</h3>

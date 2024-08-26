@@ -23,7 +23,7 @@ const Skills = () => {
         {Frontend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
-            src={image.Image}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${image.Image}`}
             name={image.skill_name}
             width={image.width}
             height={image.height}
@@ -35,7 +35,7 @@ const Skills = () => {
         {Backend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
-            src={image.Image}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${image.Image}`}
             name={image.skill_name}
             width={image.width}
             height={image.height}
@@ -47,7 +47,7 @@ const Skills = () => {
         {Devops_tools.map((image, index) => (
           <SkillDataProvider
             key={index}
-            src={image.Image}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${image.Image}`}
             name={image.skill_name}
             width={image.width}
             height={image.height}
@@ -59,7 +59,7 @@ const Skills = () => {
         {Development_tools.map((image, index) => (
           <SkillDataProvider
             key={index}
-            src={image.Image}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${image.Image}`}
             name={image.skill_name}
             width={image.width}
             height={image.height}
@@ -71,7 +71,7 @@ const Skills = () => {
         {Game_development.map((image, index) => (
           <SkillDataProvider
             key={index}
-            src={image.Image}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${image.Image}`}
             name={image.skill_name}
             width={image.width}
             height={image.height}
@@ -83,7 +83,7 @@ const Skills = () => {
         {Programming_langs.map((image, index) => (
           <SkillDataProvider
             key={index}
-            src={image.Image}
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${image.Image}`}
             name={image.skill_name}
             width={image.width}
             height={image.height}
@@ -101,7 +101,7 @@ const Skills = () => {
             loop
             muted
             autoPlay
-            src="/cards-video.webm"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/cards-video.webm`}
           />
         </div>
       </div>

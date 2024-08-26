@@ -47,7 +47,7 @@ const HeroContent = () => {
           Mobile, Graphics, Game, and Software development. Check out my projects and skills.
         </motion.p>
         <motion.a
-          href="/resume.pdf"
+          href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/resume.pdf`}
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
