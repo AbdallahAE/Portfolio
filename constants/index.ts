@@ -253,30 +253,6 @@ export const Programming_langs = [
 
 export const jobExperiences = [
   {
-    logo: "/interclypse_logo.png",
-    altText: "Interclypse logo",
-    title: "Fullstack Starter Intern",
-    period: "Aug 2022 - Jan 2023",
-    description: "Contributed to an e-commerce website project, implementing Node.js and React for a dynamic frontend, while utilizing Java and MongoDB for a robust backend system managing inventory and products.",
-    link: "https://interclypse.com/",
-  },
-  {
-    logo: "/remotasks_logo.jpg",
-    altText: "Remotasks logo",
-    title: "Bulba Code Eval",
-    period: "Sept 2023 - Jan 2024",
-    description: "Engaged in the enhancement of various AI models by analyzing responses and providing constructive feedback. Focused on coding-based prompts, the work involved refining and improving the models for more accurate and contextually relevant outputs.",
-    link: "https://www.remotasks.com/en",
-  },
-  {
-    logo: "/gmu_logo.jpg",
-    altText: "GMU logo",
-    title: "Data Structures Professor Assistant",
-    period: "Jan 2024 - May 2024",
-    description: "As a teaching assistant in a data structures class, I contributed by grading assignments, addressing student queries, and offering guidance during class projects. My role involved fostering a deeper understanding of data structures concepts and ensuring students' success.",
-    link: "https://cs.gmu.edu/",
-  },
-  {
     logo: "/genlogs_logo.png",
     altText: "Genlogs logo",
     title: "GenLogs Software Engineer",
@@ -291,10 +267,52 @@ export const jobExperiences = [
     period: "Jun 2024 - Aug 2024",
     description: "Collaborated on the development of advanced coronagraph systems to enhance exoplanet detection for the Habitable Worlds Observatory (HWO). Applied machine learning techniques to optimize the performance of deformable mirrors and wavefront sensors. Engaged in weekly meetings with experts to refine AI models and data simulations, contributing to open science initiatives. Additionally, gained hands-on experience with cutting-edge optical technologies during tours at STSCI and Goddard.",
     link: "https://science.nasa.gov/astrophysics/programs/habitable-worlds-observatory/",
-  }
+  },
+  {
+    logo: "/gmu_logo.jpg",
+    altText: "GMU logo",
+    title: "Data Structures Professor Assistant",
+    period: "Jan 2024 - May 2024",
+    description: "As a teaching assistant in a data structures class, I contributed by grading assignments, addressing student queries, and offering guidance during class projects. My role involved fostering a deeper understanding of data structures concepts and ensuring students' success.",
+    link: "https://cs.gmu.edu/",
+  },
+  {
+    logo: "/remotasks_logo.jpg",
+    altText: "Remotasks logo",
+    title: "Bulba Code Eval",
+    period: "Sept 2023 - Jan 2024",
+    description: "Engaged in the enhancement of various AI models by analyzing responses and providing constructive feedback. Focused on coding-based prompts, the work involved refining and improving the models for more accurate and contextually relevant outputs.",
+    link: "https://www.remotasks.com/en",
+  },
+  {
+    logo: "/interclypse_logo.png",
+    altText: "Interclypse logo",
+    title: "Fullstack Starter Intern",
+    period: "Aug 2022 - Jan 2023",
+    description: "Contributed to an e-commerce website project, implementing Node.js and React for a dynamic frontend, while utilizing Java and MongoDB for a robust backend system managing inventory and products.",
+    link: "https://interclypse.com/",
+  },
 ];
 
 export const Projects_Info = [
+  {
+    src: "/mnlt_proj.png",
+    title: "Graphics/Physics Engine",
+    description: "Developed a graphics engine in C++ using Vulkan, featuring a particle life simulator, a solar system simulator, and model loading capabilities.",
+    link: "https://github.com/AbdallahAE/mnltEngine",
+  },
+  {
+    src: "/graphs_alg_proj.png",
+    title: "Graph Algorithms",
+    description: "Creating Graphs from scratch and implmenting kruskal's algorithm with javax.",
+    link: "https://github.com/AbdallahAE/Graph-Algorithms",
+  },
+  {
+    src: "/blockchain_proj1.png",
+    title: "Blockchain",
+    description: "A heavily simplified representation of how blockchain works.",
+    link: "https://github.com/AbdallahAE/Simplified-Blockchain",
+  },
   {
     src: "/organization_proj.png",
     title: "Organization App",
@@ -307,23 +325,12 @@ export const Projects_Info = [
     description: "An escape-room puzzle game with time control.",
     link: "https://abdallahae.itch.io/rewind-escape",
   },
-  {
-    src: "/blockchain_proj1.png",
-    title: "Blockchain",
-    description: "A heavily simplified representation of how blockchain works.",
-    link: "https://github.com/AbdallahAE/Simplified-Blockchain",
-  },
+  
   {
     src: "/minesweeper_proj.png",
     title: "Mine Sweeper",
     description: "A Mine Sweeper game made in java.",
     link: "https://github.com/AbdallahAE/Mine-Sweeper-Game",
-  },
-  {
-    src: "/graphs_alg_proj.png",
-    title: "Graph Algorithms",
-    description: "Creating Graphs from scratch and implmenting kruskal's algorithm with javax.",
-    link: "https://github.com/AbdallahAE/Graph-Algorithms",
   },
 ];
 
