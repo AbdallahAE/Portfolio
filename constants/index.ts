@@ -253,9 +253,17 @@ export const Programming_langs = [
 
 export const jobExperiences = [
   {
+    logo: "/bah.jpg",
+    altText: "BAH logo",
+    title: "Software Engineer Intern",
+    period: "Jun 2025 - Aug 2025",
+    description: "As part of the SNAP Sentinel team, I helped build an innovative fraud detection platform designed to protect billions of dollars in USDA SNAP benefits and ensure aid reaches families who need it most. The platform combines advanced AI models with an intuitive dashboard, delivering real-time results and clear explanations for every flagged case. Adaptable to other federal assistance programs, SNAP Sentinel has the potential to save over $5.6 billion annually while safeguarding critical resources for millions of Americans.",
+    link: "https://boozallen.com/",
+  },
+  {
     logo: "/genlogs_logo.png",
     altText: "Genlogs logo",
-    title: "GenLogs Software Engineer",
+    title: "Software Engineer",
     period: "Mar 2024 - Present",
     description: "Led the development and optimization of a centralized CIAM (Customer Identity and Access Management) API, utilizing FastAPI with PostgreSQL and Redis for enhanced performance. Played a critical role in the rapid development of an internal monitoring tool, contributing to the launch of the Asset Locator API and portal, which resulted in substantial contract signings and customer revenue growth. Significantly improved core database query efficiency, reducing execution time from 1 minute to just a few seconds.",
     link: "https://genlogs.io/",
