@@ -7,7 +7,7 @@ import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 
 const StarBackground = (props: any) => {
-  const ref: any = useRef();
+  const ref = useRef<any>(null);
   const [sphere] = useState(() =>
     random.inSphere(new Float32Array(6000), { radius: 1.2 })
   );
@@ -15,7 +15,7 @@ const StarBackground = (props: any) => {
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta/10;
     ref.current.rotation.y -= delta/15;
-  })
+  });
 
 
   return (
@@ -29,14 +29,14 @@ const StarBackground = (props: any) => {
         >
             <PointMaterial
                 transparent
-                color="$fff"
+                color="#fff"
                 size={0.002}
                 sizeAttenuation={true}
-                dethWrite={false}
+                depthWrite={false}
             />
         </Points>
     </group>
-  )
+  );
 };
 
 const StarsCanvas = () => (
@@ -47,6 +47,6 @@ const StarsCanvas = () => (
         </Suspense>
         </Canvas>
     </div>
-)
+);
 
 export default StarsCanvas;
